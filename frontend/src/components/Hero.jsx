@@ -5,7 +5,7 @@ const Hero = () => {
     <section
       id="home"
       className="h-screen bg-cover bg-center flex flex-col justify-center items-center text-white text-center relative"
-      style={{ backgroundImage: "url('/hero.jpg')" }}
+      style={{ backgroundImage: "url('/yellowhover.png')" }}
     >
       {/* Overlay za bolji kontrast teksta */}
       <div className="absolute inset-0 bg-black opacity-50"></div>

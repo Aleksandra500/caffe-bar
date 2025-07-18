@@ -7,6 +7,9 @@ export default {
 				arizonia: ['"Arizonia"', 'cursive'],
 				paprika: ['"Paprika"', 'system-ui'],
 			},
+			colors: {
+				'coffee-brown': '#4B2E05',
+			},
 		},
 	},
 	plugins: [],
