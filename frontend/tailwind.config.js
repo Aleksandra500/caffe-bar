@@ -8,7 +8,7 @@ export default {
 				paprika: ['"Paprika"', 'system-ui'],
 			},
 			colors: {
-				'coffee-brown': '#4B2E05',
+				'coffee-brown': '#4E342E',
 			},
 		},
 	},
