@@ -57,12 +57,12 @@ const About = () => {
 				{/* Desne dve slike */}
 				<div className='flex flex-col gap-6'>
 					<img
-						src='/sankcolor.png'
+						src='/sankceo.png'
 						alt='Enterijer 1'
 						className='w-full h-[180px] object-cover rounded-xl'
 					/>
 					<img
-						src='/sankblack.png'
+						src='/basta.png'
 						alt='Enterijer 2'
 						className='w-full h-[180px] object-cover rounded-xl'
 					/>

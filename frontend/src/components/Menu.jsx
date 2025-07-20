@@ -21,21 +21,21 @@ const Menu = () => {
           <h3 className="text-2xl font-bold mb-12 text-center text-[#f4e3c1] tracking-wide">
             Kafe & Limunade
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <DrinkCard
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+            <RoundCard
               img="/coffee5.jpg"
               title="Espresso Shot"
-              desc="Bogata aroma, snažan karakter i čista energija u maloj šoljici."
+              desc="Bogata aroma, snažan karakter i čista energija u maloj šoljici. Espresso u BarFly-ju je pažljivo dozirana snaga u svakom gutljaju."
             />
-            <DrinkCard
+            <RoundCard
               img="/coffee4.jpg"
               title="Cappuccino"
-              desc="Savršena harmonija punog espressa i nežne pene od mleka."
+              desc="Savršena harmonija punog espressa i nežne pene od mleka. Kremasto iskustvo koje kombinuje tradiciju i komfor."
             />
-            <DrinkCard
+            <RoundCard
               img="/lemonade.jpg"
               title="Domaća limunada"
-              desc="Svetla, osvežavajuća i prirodna – limun, menta i trunkica meda."
+              desc="Svetla, osvežavajuća i prirodna – limun, menta i trunkica meda. Idealna za lagane trenutke i letnje dane."
             />
           </div>
         </div>
@@ -45,21 +45,21 @@ const Menu = () => {
           <h3 className="text-2xl font-bold mb-12 text-center text-[#f4e3c1] tracking-wide">
             Kokteli
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <DrinkCard
-              img="/cocktail1.jpeg"
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+            <RoundCard
+              img="/sijalica.png"
               title="BarFly Mojito"
-              desc="Klasičan mojito s našim twist-om – više limete, više osveženja."
+              desc="Klasičan mojito s našim twist-om – više limete, više osveženja. Svaki gutljaj hladi i pokreće. Idealno za letnje večeri na terasi uz muziku."
             />
-            <DrinkCard
-              img="/cocktail2.jpg"
+            <RoundCard
+              img="/brain.png"
               title="Espresso Martini"
-              desc="Savršena fuzija kofeina i stila – moćan, hladan i zavodljiv."
+              desc="Savršena fuzija kofeina i stila. Hladan espresso, vodka i liker ujedinjeni u sofisticiran koktel za kasne večeri i razgovore."
             />
-            <DrinkCard
-              img="/cocktail3.webp"
+            <RoundCard
+              img="/koktel-sa-slagom.png"
               title="Berry Bliss"
-              desc="Letnji voćni raj u čaši – kombinacija bobičastog i sitnog leda."
+              desc="Voćna eksplozija bobičastih aroma u svilenkastom miksu. Lagan, elegantan i neodoljivo osvežavajući – pravi izbor za dobar start večeri."
             />
           </div>
         </div>
@@ -68,16 +68,16 @@ const Menu = () => {
   );
 };
 
-// Kartica za jedno piće
-const DrinkCard = ({ img, title, desc }) => (
+// Univerzalna kartica sa okruglom slikom (i za kafe i za koktele)
+const RoundCard = ({ img, title, desc }) => (
   <div className="bg-[#2b2a27] rounded-xl shadow-lg overflow-hidden flex flex-col items-center text-center p-6 hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out">
     <img
       src={img}
       alt={title}
-      className="w-full h-[240px] object-cover mb-4 rounded-lg"
+      className="w-40 h-40 object-cover rounded-full mb-6 border-4 border-[#f4e3c1]"
     />
-    <h4 className="text-xl font-semibold mb-2 text-[#f4e3c1]">{title}</h4>
-    <p className="text-sm text-[#d2c7b3]">{desc}</p>
+    <h4 className="text-xl font-semibold mb-3 text-[#f4e3c1]">{title}</h4>
+    <p className="text-sm text-[#d2c7b3] leading-relaxed">{desc}</p>
   </div>
 );
 
