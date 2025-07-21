@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 
 function App() {
@@ -5,7 +6,8 @@ function App() {
 
   return (
     <>
-     <HomePage/>
+     
+     <Outlet/>
     </>
   )
 }
