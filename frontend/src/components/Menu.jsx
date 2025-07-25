@@ -3,7 +3,7 @@ import CoffeeIntro from './CoffeeIntro';
 
 const Menu = () => {
   return (
-    <section id="menu" className="bg-[#1c1b18] text-[#f5f5f5] py-24 px-6">
+    <section id="menu" className="bg-[#1c1b18] text-[#f5f5f5] pt-12 pb-24 px-6">
       <div className="max-w-6xl mx-auto">
 
         {/* Uvod o kafi */}

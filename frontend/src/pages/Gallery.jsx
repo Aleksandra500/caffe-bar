@@ -1,12 +1,11 @@
 import React from 'react';
 
 const images = [
-  '/gallery1.jpg',
-  '/gallery2.jpg',
-  '/gallery3.jpg',
-  '/gallery4.jpg',
-  '/gallery5.jpg',
-  '/gallery6.jpg',
+  '/1.jpeg',
+  '/2.jpeg',
+  '/3.jpeg',
+  '/4.jpeg',
+  '/5.jpeg',
 ];
 
 const Gallery = () => {
@@ -44,7 +43,7 @@ const Gallery = () => {
       {/* CTA dugme */}
       <div className="mt-16 text-center">
         <a
-          href="https://instagram.com/barfly" // zameni sa stvarnim linkom ako imaš
+          href="https://www.instagram.com/barfly_trstenik/" // zameni sa stvarnim linkom ako imaš
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#f4e3c1] text-[#1C1B18] px-8 py-3 rounded-full font-semibold hover:bg-[#e9d4b8] transition"

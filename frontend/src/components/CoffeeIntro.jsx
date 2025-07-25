@@ -1,7 +1,7 @@
 
 const CoffeeIntro = () => {
   return (
-    <section className="bg-[#1c1b18] text-[#d2c7b3] py-24 px-6">
+    <section className="bg-[#1c1b18] text-[#d2c7b3] py-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         
         {/* Leva slika (uvek vidljiva, pozicija zavisi od veličine ekrana) */}

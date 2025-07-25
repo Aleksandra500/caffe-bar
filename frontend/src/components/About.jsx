@@ -6,7 +6,7 @@ const About = () => {
 			id='about'
 			className='bg-[#1C1B18] text-[#EADBC8] py-24 px-6 font-serif'>
 			{/* Gornji deo: slika levo, tekst desno */}
-			<div className='grid md:grid-cols-2 gap-14 items-center max-w-6xl mx-auto mb-20'>
+			<div className='grid md:grid-cols-2 gap-14 items-center max-w-6xl mx-auto mb-4'>
 				{/* Slika levo */}
 				<img
 					src='/sankceo.png'

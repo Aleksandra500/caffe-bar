@@ -34,7 +34,7 @@ const Events = () => {
 
       {/* Krugaste slike atmosfere */}
       <div className="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto mb-20">
-        {['/event1.jpg', '/event2.jpg', '/event3.jpg'].map((img, i) => (
+        {['/1.jpeg', '/5.jpeg', '/3.jpeg'].map((img, i) => (
           <img
             key={i}
             src={img}
