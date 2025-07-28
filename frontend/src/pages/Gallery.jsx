@@ -1,11 +1,14 @@
 import React from 'react';
 
 const images = [
-  '/1.jpeg',
-  '/2.jpeg',
-  '/3.jpeg',
-  '/4.jpeg',
-  '/5.jpeg',
+  '/sankceo.png',
+  '/terasaa.jpeg',
+  '/barfly-image.png',
+  '/sank-subota.jpeg',
+  '/unutra.jpeg',
+  '/basta.png',
+  '/unutraa.jpeg',
+  '/aperol.png',
 ];
 
 const Gallery = () => {

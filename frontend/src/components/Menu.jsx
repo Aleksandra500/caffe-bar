@@ -23,12 +23,12 @@ const Menu = () => {
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
             <RoundCard
-              img="/coffee5.jpg"
+              img="/eshot.webp"
               title="Espresso Shot"
               desc="Bogata aroma, snažan karakter i čista energija u maloj šoljici. Espresso u BarFly-ju je pažljivo dozirana snaga u svakom gutljaju."
             />
             <RoundCard
-              img="/coffee4.jpg"
+              img="/capuc.jpg"
               title="Cappuccino"
               desc="Savršena harmonija punog espressa i nežne pene od mleka. Kremasto iskustvo koje kombinuje tradiciju i komfor."
             />
@@ -47,19 +47,21 @@ const Menu = () => {
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
             <RoundCard
-              img="/sijalica.png"
-              title="BarFly Mojito"
-              desc="Klasičan mojito s našim twist-om – više limete, više osveženja. Svaki gutljaj hladi i pokreće. Idealno za letnje večeri na terasi uz muziku."
+              img="/libre.jpeg"
+              title="Cuba Libre"
+              desc="Osvježavajuća klasika! Rum, Coca-Cola i svež limunov sok – jednostavno, a neodoljivo. Popularan izbor za ležerna druženja i letnje večeri."
             />
             <RoundCard
-              img="/brain.png"
-              title="Espresso Martini"
-              desc="Savršena fuzija kofeina i stila. Hladan espresso, vodka i liker ujedinjeni u sofisticiran koktel za kasne večeri i razgovore."
+              img="/mohito.jpg"
+              title="Mojito"
+              desc="Kubanski klasik koji osvaja svežinom! Mojito je spoj belog ruma, sveže nane, limete, šećera i gazirane vode. Lagano sladak i citrusan, sa aromatičnom mentom koja pruža osvežavajući ukus – idealan za tople dane i letnje večeri.
+
+"
             />
             <RoundCard
-              img="/koktel-sa-slagom.png"
-              title="Berry Bliss"
-              desc="Voćna eksplozija bobičastih aroma u svilenkastom miksu. Lagan, elegantan i neodoljivo osvežavajući – pravi izbor za dobar start večeri."
+              img="/aperol.jpg"
+              title="Aperol Spritz"
+              desc="Osvježavajući italijanski klasik, Aperol Spritz kombinuje laganu gorčinu Aperola s delikatnom notom prosecca i završava se s kiselkastim dodirom gazirane vode. Idealno letnje piće, poznato po svojoj narandžastoj boji i laganom, gorko-slatkom ukusu. Servira se s kriškom pomorandže i ledom — savršeno za opuštanje u dobrom društvu."
             />
           </div>
         </div>

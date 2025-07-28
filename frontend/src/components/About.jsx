@@ -9,7 +9,7 @@ const About = () => {
 			<div className='grid md:grid-cols-2 gap-14 items-center max-w-6xl mx-auto mb-4'>
 				{/* Slika levo */}
 				<img
-					src='/sankceo.png'
+					src='/chat-subota.png'
 					alt='Enterijer'
 					className='rounded-xl shadow-lg w-full h-[420px] object-cover'
 				/>
@@ -62,7 +62,7 @@ const About = () => {
 						className='w-full h-[180px] object-cover rounded-xl'
 					/>
 					<img
-						src='/basta.png'
+						src='/sankcolor.png'
 						alt='Enterijer 2'
 						className='w-full h-[180px] object-cover rounded-xl'
 					/>

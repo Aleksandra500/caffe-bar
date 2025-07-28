@@ -15,7 +15,7 @@ const Events = () => {
       {/* Glavna DJ slika */}
       <div className="relative max-w-6xl mx-auto mb-20 rounded-xl overflow-hidden shadow-lg">
         <img
-          src="/dj-hover.jpg"
+          src="/degis.png"
           alt="DJ Night"
           className="w-full h-[400px] object-cover brightness-[0.5]"
         />
@@ -34,7 +34,7 @@ const Events = () => {
 
       {/* Krugaste slike atmosfere */}
       <div className="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto mb-20">
-        {['/1.jpeg', '/5.jpeg', '/3.jpeg'].map((img, i) => (
+        {['/sank-subota.jpeg', '/terasaa.jpeg', '/unutra.jpeg'].map((img, i) => (
           <img
             key={i}
             src={img}
