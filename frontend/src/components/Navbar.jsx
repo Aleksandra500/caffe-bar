@@ -29,7 +29,7 @@ const Navbar = () => {
 					<img
 						src='/glass.png'
 						alt='logo'
-						className='w-10 sm:w-12 md:w-14 lg:w-16 xl:w-30 object-contain'
+						className='w-10 sm:hidden md:w-14 lg:w-16 xl:w-30 object-contain'
 					/>
 				</div>
 				<ul className='flex space-x-6 text-sm uppercase'>
