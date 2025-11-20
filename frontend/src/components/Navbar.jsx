@@ -26,11 +26,7 @@ const Navbar = () => {
 					<h1 className='font-arizonia text-xl md:text-2xl xl:text-4xl font-bold tracking-wide'>
 						Caffe BarFly
 					</h1>
-					<img
-						src='/glass.png'
-						alt='logo'
-						className='w-10 sm:hidden md:w-14 lg:w-16 xl:w-30 object-contain'
-					/>
+					
 				</div>
 				<ul className='flex space-x-6 text-sm uppercase'>
 					<li>
